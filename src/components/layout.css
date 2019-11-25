@@ -1,7 +1,5 @@
 h1 {
-  font-family: Shadows Into Light Two !important;
-  font-size: 4rem !important;
-  color: #00778d;
+  font-family: Montserrat !important;
 }
 
 body {
@@ -16,7 +14,6 @@ body {
 .navbar {
   padding: 0.5rem 4rem;
   background-color: #e4e4e4;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -31,7 +28,7 @@ body {
   margin-top: 40px;
 }
 
-.white-bg{
+.white-bg {
   background-color: white;
 }
 
@@ -43,7 +40,6 @@ body {
   border-top: solid 40px #00778d;
   border-left: solid 70px #00778d;
   border-width: 50% !important;
-  
 }
 
 .col-footer {
@@ -58,5 +54,52 @@ body {
       border-top: none;
       border-left: solid 70px #00778d;
   }
-
 }
+
+  /* HOMEPAGE Header CSS */
+
+.header-title {
+margin: 7.5rem 0 0 2.5rem;
+text-transform: uppercase;
+color: #fff !important;
+font-size: 8.5vw !important;
+font-weight: 400 !important;
+}
+
+.header-title-highlight {
+  margin: -1.6rem 0 0 2.5rem;
+  text-transform: uppercase;
+  color: #00778d !important;
+  font-size: 8.5vw !important;
+  font-weight: 400 !important;
+}
+
+.header-subtitle {
+  margin: -1.6rem 0 2rem 2.5rem;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: 8.5vw !important;
+  font-weight: 400 !important;
+}
+
+/* HOMEPAGE Box section CSS */
+
+.card-container-bg {
+  background-color: white;
+  /*height: 10rem;*/
+}
+.card-bg {
+  background-color: #00778d;
+}
+
+.card {
+  margin: -4.5rem 0.5rem -2.5rem 0.5rem;
+  width: 12rem;
+  height: 12rem;
+}
+.card-title {
+font-family: Montserrat;
+font-weight: 400;
+font-size: 1.6rem;
+}
+
