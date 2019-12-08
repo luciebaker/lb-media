@@ -1,20 +1,23 @@
 import React from "react"
 import Layout from "../components/layout"
-import Header from "../components/Homepage/Header"
+import Header from "../components/utilities/Header"
 import FeaturedText from "../components/utilities/featuredText"
 import Info from "../components/Homepage/Info"
-import Box from "../components/Homepage/Box"
+import Box from "../components/utilities/Box"
+import TechLogos from "../components/utilities/Techlogos"
+import ContactCTA from "../components/utilities/ContactCTA"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="LB Media" />
-    <Header />
-    <Box />
+    <Header title1="creating" title2="state of the art" title3="websites"/>
+    <Box textbox1="Modern Technology" textbox2="Cutting-Edge Technology" textbox3="Best Practice"/>
     <Info />
-    <FeaturedText text="Future proof your web presence!"/>
+    <FeaturedText text="Embrace modern technologies & Future proof your web presence!"/>
+    <TechLogos />
     <h3 className="text-center mt-5">Featured Portfolio items to be added here very soon</h3>
-    <FeaturedText text="Let's build something great together!"/>
+    <ContactCTA />
     <h3 className="text-center mt-5 mb-5">Featured Insights section to be added here very soon</h3>
   </Layout>
 )

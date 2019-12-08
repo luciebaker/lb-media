@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import logo from '../../images/LBMedia-logo.svg'
-import {Link} from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
 import FooterIcons from './FooterIcons'
 // import { FaGithub } from 'react-icons/fa'
 // import { FaTwitter } from 'react-icons/fa'
@@ -17,9 +18,9 @@ export default class Footer extends Component {
                     
                     <div className="col-sm col-footer-right text-center">
 
-                    <Link to='/'>
+                    <AniLink fade to='/'>
                     <img className="footer-logo" src={logo} alt="LB Media Logo"/>
-                    </Link>
+                    </AniLink>
                     </div>
 
                     <div className="col-sm col-footer pt-5 text-center">

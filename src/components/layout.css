@@ -9,7 +9,7 @@
 /* footer css */
 /* button css */
 /* homepage header */
-/* homepage box section */
+/* utilities box section */
 /* media queries for header and box sections of homepage */
 
 h1 {
@@ -143,7 +143,7 @@ body {
   font-weight: 400 !important;
 }
 
-/* HOMEPAGE Box section CSS */
+/*UTILITIES  Box section CSS */
 .card-container-align {
   justify-content: flex-end;
 }
@@ -173,7 +173,7 @@ body {
   margin-right: 3.5rem;
 }
 
-/* media queries for header and box sections of homepage */
+/* media queries for header and box sections of homepage and portfolio page */
 
 @media (max-width: 900px) {
   .header-title-highlight {
