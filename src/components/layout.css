@@ -11,6 +11,7 @@
 /* homepage header */
 /* utilities box section */
 /* media queries for header and box sections of homepage */
+/* techlogo section */
 
 h1 {
   font-family: Montserrat !important;
@@ -227,4 +228,10 @@ body {
   .card-title {
     font-size: .9rem;
   }
+}
+
+/* techlogo section */
+
+.techlogo {
+  margin: 10px 15px;
 }

@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Header title1="creating" title2="state of the art" title3="websites"/>
     <Box textbox1="Modern Technology" textbox2="Cutting-Edge Technology" textbox3="Best Practice"/>
     <Info />
-    <FeaturedText text="Embrace modern technologies & Future proof your web presence!"/>
+    <FeaturedText text="Future proof your web presence with modern technologies"/>
     <TechLogos />
     <h3 className="text-center mt-5">Featured Portfolio items to be added here very soon</h3>
     <ContactCTA />
