@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import FeaturedText from '../utilities/featuredText'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 export default class Info extends Component {

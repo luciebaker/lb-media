@@ -4,6 +4,7 @@ import Header from "../components/utilities/Header"
 import FeaturedText from "../components/utilities/featuredText"
 import Info from "../components/Homepage/Info"
 import Box from "../components/utilities/Box"
+import FeaturedPortfolio from "../components/Homepage/FeaturedPortfolio"
 import TechLogos from "../components/utilities/Techlogos"
 import ContactCTA from "../components/utilities/ContactCTA"
 import SEO from "../components/seo"
@@ -16,7 +17,7 @@ const IndexPage = () => (
     <Info />
     <FeaturedText text="Future proof your web presence with modern technologies"/>
     <TechLogos />
-    <h3 className="text-center mt-5">Featured Portfolio items to be added here very soon</h3>
+    <FeaturedPortfolio/>
     <ContactCTA />
     <h3 className="text-center mt-5 mb-5">Featured Insights section to be added here very soon</h3>
   </Layout>

@@ -1,0 +1,40 @@
+
+.fpf-card {
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .2rem;
+    }
+
+.fpf-card-block {
+    position: relative;
+    margin: 0;
+    padding: .7rem;
+    border-left: 25px solid #00778d;
+    background-color: #fff;
+}
+
+.fpf-card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.fpf-card-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.fpf-card-tech {
+    font-size: 1.2rem;
+    color: #00778d;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.fpf-card-text {
+    clear: both;
+    margin-top: .5em;
+    color: #000;
+}
+
