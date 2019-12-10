@@ -2,7 +2,12 @@ body {
     background-color: $mainBGColor;
   }
 
+a {
+  text-decoration: none !important;
+}
+
   /* temporary text to be removed later  */
 .temp-text {
   margin-top: 5rem;
 }
+
