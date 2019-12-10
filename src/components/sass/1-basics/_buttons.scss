@@ -1,0 +1,21 @@
+.btn-bordered-teal {
+    text-transform: uppercase;
+    background:$mainBGColor;
+    border:2px solid $mainColor;
+    border-radius: 0;
+    padding: .5rem 2rem;
+  }
+    
+  .btn-bordered-teal:hover {
+    background: $mainColor;
+  }
+    
+  .btn-text {
+    color: $mainColor;
+    font-size: 1.2rem;
+  }
+  
+  .btn-text:hover {
+    color: #fff;
+  }
+  

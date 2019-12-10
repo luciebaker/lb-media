@@ -1,0 +1,54 @@
+.container-header {
+    padding-bottom: 3.125rem;
+  }
+  
+  .header-title {
+    margin: 7rem 0 0 2.5rem;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 8.5vw !important;
+    font-weight: 400 !important;
+  }
+  
+  .header-title-highlight {
+    margin: -1.6rem 0 0 2.5rem;
+    text-transform: uppercase;
+    color: $mainColor !important;
+    font-size: 8.5vw !important;
+    font-weight: 400 !important;
+  }
+  
+  .header-subtitle {
+    margin: -1.6rem 0 0 3rem;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 8.5vw !important;
+    font-weight: 400 !important;
+  }
+
+  @media (max-width: 900px) {
+    .header-title-highlight {
+      margin-top: -1rem;
+    }
+    .header-subtitle {
+      margin-top: -1rem;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .header-title-highlight {
+      margin-top: -.5rem;
+    }
+    .header-subtitle {
+      margin-top: -.5rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .header-title-highlight {
+      margin-top: -.2rem;
+    }
+    .header-subtitle {
+      margin-top: -.2rem;
+    }
+  }

@@ -1,0 +1,39 @@
+.footer-logo {
+    margin-top: 2rem;
+    width: 180px;
+  }
+  
+  .footer-icon {
+    font-size: 1.8rem;
+    color: #000;
+    margin-right: 1.2rem;
+    margin-top: 3.7rem;
+  }
+  
+  .white-bg {
+    background-color: white;
+  }
+  
+  .copyright-border {
+    border-left: solid 70px $mainColor;
+  }
+  
+  .col-footer-right {
+    border-top: solid 40px $mainColor;
+    border-left: solid 70px $mainColor;
+    border-width: 50% !important;
+  }
+  
+  .col-footer {
+    border-top: solid 20px $mainBGColor;
+  }
+  
+  @media (max-width: 576px) {
+    .col-footer-right {
+      border-top: solid 20px $mainColor;
+    }
+    .col-footer {
+        border-top: none;
+        border-left: solid 70px $mainColor;
+    }
+  }

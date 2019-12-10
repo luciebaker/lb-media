@@ -2,7 +2,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import "./bootstrap.min.css" 
-import "./layout.css"
+import "./sass/layout.scss"
 import Navbar from './global/Navbar'
 import Footer from './global/Footer'
 

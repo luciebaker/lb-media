@@ -1,0 +1,63 @@
+.card-container-align {
+    justify-content: flex-end;
+  }
+  
+  .card-container-bg {
+    background-color: white;
+    padding: 0;
+  }
+  .card-bg {
+    background-color: $mainColor;
+  }
+  
+  .card {
+    margin: -3rem 0.5rem -3rem 0.5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  .card-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-right: .4rem;
+    padding-left: .4rem;
+  }
+  
+  .card-last {
+    margin-right: 3.5rem;
+  }
+
+  @media (max-width: 900px) {
+    .card {
+      width: 9rem;
+      height: 9rem;
+    }
+    .card-title {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .card {
+      width: 8rem;
+      height: 8rem;
+    }
+    .card-title {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-container-align {
+      justify-content: center;
+    }
+  
+    .card {
+      margin: -2.5rem 0.1rem -2.5rem 0.1rem;
+      width: 8rem;
+      height: 8rem;
+    }
+    .card-title {
+      font-size: .9rem;
+    }
+  }
