@@ -16,7 +16,7 @@ AllPortfolioItems: allContentfulLbPortfolio {
             }
             media {
                 fluid {
-                    ...GatsbyContentfulFluid
+                    ...GatsbyContentfulFluid_tracedSVG
                 }
             }
         }
