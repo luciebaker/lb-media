@@ -75,7 +75,7 @@ query ($slug: String!) {
     }
     media {
       fluid {
-        ...GatsbyContentfulFluid_tracedSVG
+        ...GatsbyContentfulFluid
       }
     }
   }

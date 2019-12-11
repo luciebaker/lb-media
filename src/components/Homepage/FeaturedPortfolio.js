@@ -18,7 +18,7 @@ const getFeaturedPortfolioItems = graphql `
                     }
                 media {
                     fluid {
-                        ...GatsbyContentfulFluid_tracedSVG
+                        ...GatsbyContentfulFluid
                     }
                 }
             }
