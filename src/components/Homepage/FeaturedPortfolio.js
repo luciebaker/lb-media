@@ -31,7 +31,6 @@ const getFeaturedPortfolioItems = graphql `
 const FeaturedPortfolio = () => {
     const response = useStaticQuery(getFeaturedPortfolioItems)
     const fpfitems = response.FeaturedPortfolioItems.edges
-    console.log(fpfitems)
     return (
 
 
