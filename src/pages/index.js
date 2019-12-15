@@ -13,9 +13,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="LB Media" />
     <Header title1="creating" title2="state of the art" title3="websites"/>
-    <Box textbox1="Modern Technology" textbox2="Cutting-Edge Technology" textbox3="Best Practice"/>
+    <Box textbox1="Modern Design" textbox2="Cutting-Edge Technology" textbox3="Performance & Best Practice"/>
     <Info />
-    <FeaturedText text="Embrace modern technologies & Future proof your web presence"/>
+    <FeaturedText text="Future proof your web presence"/>
     <TechLogos />
     <FeaturedPortfolio/>
     <ContactCTA />

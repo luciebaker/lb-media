@@ -10,7 +10,7 @@ const PortfolioPage = () => (
   <Layout>
     <SEO title="Portfolio" />
     <Header title1="lb media" title2="portfolio" />
-    <Box textbox1="Modern Technology" textbox2="Cutting-Edge Technology" textbox3="Best Practice"/>
+    <Box textbox1="Modern Design" textbox2="Cutting-Edge Technology" textbox3="Performance & Best Practice"/>
     <PortfolioALL />
     <ContactCTA />
   </Layout>
