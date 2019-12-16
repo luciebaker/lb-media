@@ -13,7 +13,7 @@ export default class NavbarIcons extends Component {
       {
         id: 2,
         icon: <FaTwitter className="footer-icon" />,
-        path: `https://www.twitter.com`,
+        path: `https://twitter.com/LBMedia7`,
       },
       {
         id: 3,

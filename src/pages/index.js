@@ -15,11 +15,10 @@ const IndexPage = () => (
     <Header title1="creating" title2="state of the art" title3="websites"/>
     <Box textbox1="Modern Design" textbox2="Cutting-Edge Technology" textbox3="Performance & Best Practice"/>
     <Info />
+    <FeaturedPortfolio/>
     <FeaturedText text="Future proof your web presence"/>
     <TechLogos />
-    <FeaturedPortfolio/>
     <ContactCTA />
-    <h3 className="text-center mt-5 mb-5">Featured Insights section to be added here very soon</h3>
   </Layout>
 )
 

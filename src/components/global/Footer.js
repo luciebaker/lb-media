@@ -3,9 +3,6 @@ import logo from '../../images/LBMedia-logo.svg'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import FooterIcons from './FooterIcons'
-// import { FaGithub } from 'react-icons/fa'
-// import { FaTwitter } from 'react-icons/fa'
-// import { FaEnvelope } from 'react-icons/fa'
 
 
 export default class Footer extends Component {
@@ -23,8 +20,12 @@ export default class Footer extends Component {
                     </AniLink>
                     </div>
 
-                    <div className="col-sm col-footer pt-5 text-center">
-                    <h4>Let's talk about your next project</h4>
+                    <div className="col-sm col-footer pt-4 text-center">
+                    <h5>Discover</h5>
+                    <AniLink fade to='/power'>
+                    <h5><b>The Power of Gatsby</b></h5>
+                    </AniLink>
+                    <h5>for Your Next Project</h5>
                     </div>
                     
                     <div className="col-sm col-footer text-center">
