@@ -1,12 +1,12 @@
 import React from 'react'
 import {graphql} from 'gatsby'
 import Layout from '../components/layout'
-import Box from '../components/utilities/Box'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { FaChevronCircleRight } from 'react-icons/fa'
 import Img from "gatsby-image"
 
 const PfTemplate = ({data}) => {
-const {name, tech, featurebox1, featurebox2, featurebox3, externalUrl, githubLink, overview:{overview}, result:{result}, media} = data.pfitem
+const {name, tech, externalUrl, githubLink, overview:{overview}, result:{result}, media} = data.pfitem
 const [mainImage] = media
 
 return (
@@ -15,14 +15,20 @@ return (
             <Img fluid={mainImage.fluid} alt="portfolio"/>
         </div>
 
-        <div className="text-center mb-5">
+        <div className="container">
+        <div className="row justify-content-center">
+        <div className="col-5 text-right">
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
-        <button className="btn-text btn btn-lg btn-bordered-teal mr-2 ml-2 mb-2">view code</button></a>
-        <a href={externalUrl} target="_blank" rel="noopener noreferrer">
-        <button className="btn-text btn btn-lg btn-bordered-teal mr-2 ml-2 mb-2">view website</button></a>
+        <h5 className="btn-text btn-pft">View Code <FaChevronCircleRight className="link-icon"/></h5>
+        </a>
         </div>
-
-        <Box textbox1={featurebox1} textbox2={featurebox2} textbox3={featurebox3}/>
+        <div className="col-5">
+        <a href={externalUrl} target="_blank" rel="noopener noreferrer">
+        <h5 className="btn-text btn-pft">View Website <FaChevronCircleRight className="link-icon"/></h5>
+        </a>
+        </div>
+        </div>
+        </div>
 
         <div className="container">
         <div className="text-center pf-title-div">
@@ -47,7 +53,7 @@ return (
         </div>
         <div className="text-center mb-5">
         <AniLink fade to='/portfolio'>
-        <button className="btn-text btn btn-lg btn-bordered-teal ml-3">Return to Portfolio</button>
+                <h5 className="btn-text pt-3">Return to Portfolio <FaChevronCircleRight className="link-icon"/></h5>
         </AniLink>
         </div>
         </Layout>
@@ -59,9 +65,6 @@ query ($slug: String!) {
   pfitem: contentfulLbPortfolio(slug: {eq: $slug}) {
     name
     tech
-    featurebox1
-    featurebox2
-    featurebox3
     externalUrl
     githubLink
     description {

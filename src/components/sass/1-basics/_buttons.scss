@@ -12,12 +12,24 @@
     background: $mainColor;
   }
     
+ 
+  
+ 
+
+  // new button text h5 followed by icon
+
   .btn-text {
+    color: #000;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+  
+  .link-icon {
     color: $mainColor;
-    font-size: 1.2rem;
+    margin-bottom: .3rem;
+    font-size: 1.8rem;
   }
-  
+
   .btn-text:hover {
-    color: #fff;
+    color: $mainColor;
   }
-  

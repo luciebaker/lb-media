@@ -1,16 +1,30 @@
 import React from "react"
+import Hero from "../components/utilities/Hero"
 import Header from "../components/utilities/Header"
-import Box from "../components/utilities/Box"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { graphql } from 'gatsby'
 
-const AboutPage = () => (
+export default ({data}) => (
   <Layout>
     <SEO title="About LB Media" />
-    <Header title1="About" title2="LB Media" />
-    <Box textbox1="Modern Design for a Great User Experience" textbox2="Focus on Performance & Best Practice" textbox3="Cutting-Edge Technology"/>
+    <Hero img={data.defaultBG.childImageSharp.fluid}>
+    <Header title="About LB Media" subtitle="Leveraging the power of the latest web technologies to give you the edge." />
+    </Hero>
+    
     <h3 className="temp-text text-center mb-5">Nothing here yet... but we're working on it!</h3>
   </Layout>
 )
 
-export default AboutPage
+
+export const query = graphql`
+query {
+  defaultBG: file(relativePath: {eq: "HeroBG.jpg"}) {
+    childImageSharp {
+      fluid(quality:90, maxWidth: 4160) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`

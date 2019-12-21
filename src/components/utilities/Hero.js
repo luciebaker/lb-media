@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import BackgroundImage from 'gatsby-background-image'
 
 
-const StyledHero = ({img, className, children}) => {
+const Hero = ({img, className, children}) => {
     return (
         <BackgroundImage className={className} fluid={img}>
             {children}
@@ -11,8 +11,8 @@ const StyledHero = ({img, className, children}) => {
     )
 }
  
-export default styled(StyledHero)`
-    min-height: 100vh;
+export default styled(Hero)`
+    min-height: 60vh;
     background-position: bottom center;
     display: flex;
     /* justify-content: center; */

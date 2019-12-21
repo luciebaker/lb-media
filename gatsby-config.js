@@ -30,10 +30,11 @@ module.exports = {
         fonts: [
           {
             family: `Montserrat`,
-            variants: [`400`, `500`, `600`, `700`]
+            variants: [`400`, `500`, `600`]
           },
           {
-            family: `Shadows Into Light Two`,
+            family: `Merriweather`,
+            variants: [`400i`, `700i`]
           },
         ],
       },
@@ -52,7 +53,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/LBMedia-Icon-teal.svg`, // This path is relative to the root of the site.
+        icon: `src/images/LBMedia-icon.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

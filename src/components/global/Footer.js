@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../../images/LBMedia-logo.svg'
+import logo from '../../images/LBMedia-logo.png'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import FooterIcons from './FooterIcons'
@@ -11,7 +11,7 @@ export default class Footer extends Component {
             
         <div className="container-fluid">
                 
-            <div className="row white-bg footer">
+            <div className="row footer">
                     
                     <div className="col-sm col-footer-right text-center">
 
@@ -20,12 +20,12 @@ export default class Footer extends Component {
                     </AniLink>
                     </div>
 
-                    <div className="col-sm col-footer pt-4 text-center">
-                    <h5>Discover</h5>
+                    <div className="col-sm col-footer pt-4 text-white text-center">
+                    <p>Discover</p>
                     <AniLink fade to='/power'>
-                    <h5><b>The Power of Gatsby</b></h5>
+                    <p><b>The Power of Gatsby</b></p>
                     </AniLink>
-                    <h5>for Your Next Project</h5>
+                    <p>for Your Next Project</p>
                     </div>
                     
                     <div className="col-sm col-footer text-center">
@@ -34,8 +34,8 @@ export default class Footer extends Component {
 
             </div>
 
-                <div className="row white-bg copyright-border">
-                <div className="col-10 mx-auto col-md-6 mt-3 text-center">
+                <div className="row copyright-bg copyright-border">
+                <div className="col-10 mx-auto col-md-6 mt-3 copyright-text text-center">
                 <p> &copy; {new Date().getFullYear().toString()} Lucie B | LB Media </p>
                 </div>
                 </div>

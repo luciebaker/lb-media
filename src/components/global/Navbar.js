@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
-import logo from '../../images/LBMedia-logo.svg'
+import logo from '../../images/LBMedia-logo.png'
 
 
 
@@ -46,7 +46,7 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-md navbar-light fixed-top shrink">
+            <nav className="navbar navbar-expand-md navbar-dark fixed-top shrink">
             <AniLink fade to='/' className="navbar-brand">
             <img className="navbar-logo" src={logo} alt="LB Media Logo"/>
             </AniLink>

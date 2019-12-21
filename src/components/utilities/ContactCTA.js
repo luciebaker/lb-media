@@ -1,6 +1,7 @@
 import React from 'react'
 import FeaturedText from './featuredText'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { FaChevronCircleRight } from 'react-icons/fa'
 
 const ContactCTA = () => {
     return (
@@ -8,7 +9,7 @@ const ContactCTA = () => {
         <FeaturedText text="Let's build something great together!"/>
         <div className="text-center">
                 <AniLink fade to='/contact'>
-                <button className="btn-text btn btn-lg btn-bordered-teal mb-5">Get in touch</button>
+                <h5 className="btn-text">Get in touch <FaChevronCircleRight className="link-icon"/></h5>
                 </AniLink>
                 </div>
         </div>

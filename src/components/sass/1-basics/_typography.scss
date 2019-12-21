@@ -5,15 +5,26 @@ h1 {
 
   h2 {
     font-family: Montserrat !important;
-    color: $mainColor;
+    color: #000;
     font-size: 1.9rem;
     font-weight: 500;
     text-transform: uppercase;
   }
 
+  h4 {
+    font-family: Merriweather !important;
+    color: $mainColor;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.35;
+  }
+
+  // h5 only to be used for new button text - see button scss
   h3, h5 {
     font-family: Montserrat !important;
   }
+
+
 
   @media (max-width: 700px) {
     h2 {

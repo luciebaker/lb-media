@@ -6,11 +6,22 @@
 
 .navbar {
     padding: 0.5rem 4rem;
-    background-color: $mainBGColor;
+    background-color: $darkBlue;
     }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #000;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
     font-family: 'Montserrat';
     padding: 8px 18px;
+    font-size: .9rem;
     }
+
+.navbar-brand {
+    margin-left: 3.75rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: .9rem;
+    }
+}

@@ -3,6 +3,7 @@ import PortfolioItem from '../Portfoliopages/PortfolioItem'
 import {useStaticQuery, graphql} from 'gatsby'
 import FeaturedText from '../utilities/featuredText'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { FaChevronCircleRight } from 'react-icons/fa'
 
 const getFeaturedPortfolioItems = graphql `
 {
@@ -45,10 +46,10 @@ const FeaturedPortfolio = () => {
 
         </section>
         <div className="text-center">
-        <AniLink fade to='/portfolio'>
-        <button className="btn-text btn btn-lg btn-bordered-teal mt-4">View Portfolio</button>
-        </AniLink>
-        </div>
+                <AniLink fade to='/portfolio'>
+                <h5 className="btn-text pt-3">View Portfolio <FaChevronCircleRight className="link-icon"/></h5>
+                </AniLink>
+                </div>
         </div>
     )
 }

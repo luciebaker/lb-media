@@ -1,19 +1,21 @@
 import React from "react"
 import Layout from "../components/layout"
-import Header from "../components/utilities/Header"
+import StyledHero from "../components/utilities/StyledHero"
+import HomePageHeader from "../components/Homepage/HomepageHeader"
 import FeaturedText from "../components/utilities/featuredText"
 import Info from "../components/Homepage/Info"
-import Box from "../components/utilities/Box"
 import FeaturedPortfolio from "../components/Homepage/FeaturedPortfolio"
 import TechLogos from "../components/utilities/Techlogos"
 import ContactCTA from "../components/utilities/ContactCTA"
 import SEO from "../components/seo"
+import { graphql } from 'gatsby'
 
-const IndexPage = () => (
+export default ({data}) => (
   <Layout>
     <SEO title="LB Media" />
-    <Header title1="creating" title2="state of the art" title3="websites"/>
-    <Box textbox1="Modern Design" textbox2="Cutting-Edge Technology" textbox3="Performance & Best Practice"/>
+    <StyledHero img={data.defaultBG.childImageSharp.fluid}>
+    <HomePageHeader />
+    </StyledHero>
     <Info />
     <FeaturedPortfolio/>
     <FeaturedText text="Future proof your web presence"/>
@@ -22,4 +24,16 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export const query = graphql`
+query {
+  defaultBG: file(relativePath: {eq: "HeroBG.jpg"}) {
+    childImageSharp {
+      fluid(quality:90, maxWidth: 4160) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`
+
+
