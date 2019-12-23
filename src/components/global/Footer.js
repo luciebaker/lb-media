@@ -21,11 +21,6 @@ export default class Footer extends Component {
                     </div>
 
                     <div className="col-sm col-footer pt-4 text-white text-center">
-                    <p>Discover</p>
-                    <AniLink fade to='/power'>
-                    <p><b>The Power of Gatsby</b></p>
-                    </AniLink>
-                    <p>for Your Next Project</p>
                     </div>
                     
                     <div className="col-sm col-footer text-center">

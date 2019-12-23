@@ -9,7 +9,7 @@ const ContactCTA = () => {
         <FeaturedText text="Let's build something great together!"/>
         <div className="text-center">
                 <AniLink fade to='/contact'>
-                <h5 className="btn-text">Get in touch <FaChevronCircleRight className="link-icon"/></h5>
+                <h5 className="btn-text mb-5">Get in touch <FaChevronCircleRight className="link-icon"/></h5>
                 </AniLink>
                 </div>
         </div>

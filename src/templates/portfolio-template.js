@@ -11,27 +11,27 @@ const [mainImage] = media
 
 return (
         <Layout>
-        <div className="container pf-main-image-div">
+        <div className="container-fluid container-pf-hero">
+        <div className="container justify-content-center pf-main-image-div">
             <Img fluid={mainImage.fluid} alt="portfolio"/>
+            </div>
+            <div className="row justify-content-center">
+            <div className="col-sm-6 text-right">
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            <h5 className="btn-text-pft btn-pft">View Code <FaChevronCircleRight className="link-icon-pft"/></h5>
+            </a>
+            </div>
+            <div className="col-sm-6 mb-4 btn-pft-col-right">
+            <a href={externalUrl} target="_blank" rel="noopener noreferrer">
+            <h5 className="btn-text-pft btn-pft">View Website <FaChevronCircleRight className="link-icon-pft"/></h5>
+            </a>
+            </div>
+            
         </div>
-
+        </div>
+       
         <div className="container">
-        <div className="row justify-content-center">
-        <div className="col-5 text-right">
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-        <h5 className="btn-text btn-pft">View Code <FaChevronCircleRight className="link-icon"/></h5>
-        </a>
-        </div>
-        <div className="col-5">
-        <a href={externalUrl} target="_blank" rel="noopener noreferrer">
-        <h5 className="btn-text btn-pft">View Website <FaChevronCircleRight className="link-icon"/></h5>
-        </a>
-        </div>
-        </div>
-        </div>
-
-        <div className="container">
-        <div className="text-center pf-title-div">
+        <div className="text-center pf-title-div mb-3">
         <h1>{name}</h1>
         </div>
 

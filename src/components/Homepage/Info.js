@@ -12,7 +12,7 @@ export default class Info extends Component {
                 
                 <div className="row justify-content-center">
                     <div className="col-md-5 mt-2 info-container-left">
-                        <h4>Performance, Reliability, Flexibility, Security, Easy Content Management and Affordability are just a few of the reasons why  a website buit with Gatsby's cutting-edge technology is a great option for your next project.</h4>
+                        <h4>Performance, Reliability, Flexibility, Security, Easy Content Management and Affordability are just a few of the reasons why a website built with Gatsby's cutting-edge technology is a great option for your next project.</h4>
                         
                     </div>
                     <div className="col-md-5 mt-2 info-container-right">

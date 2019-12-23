@@ -20,10 +20,21 @@
 }
 
 .pf-title-div h1 {
-  text-transform: uppercase;
-  color: $mainColor !important;
+  color: $mainColor!important;
   font-size: 9.5vw !important;
   font-weight: 400 !important;
+}
+
+@media (max-width: 992px) {
+  .pf-title-div h1 {
+    font-size: 11vw !important;
+  }
+}
+
+@media (max-width: 692px) {
+  .pf-title-div h1 {
+    font-size: 14vw !important;
+  }
 }
 
 .fpfitem {
@@ -37,7 +48,7 @@
   .fpfitem-img-container {
     position: relative;
     background: $mainBGColor;
-    transition: all 0.3s linear;
+    // transition: all 0.3s linear;
   }
   .fpfitem-img {
     transition: all 0.3s linear;
