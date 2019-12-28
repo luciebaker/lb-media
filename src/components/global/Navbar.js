@@ -26,6 +26,11 @@ export default class Navbar extends Component {
                 },
             {
                 id: 4,
+                path: '/100daysofGatsby/',
+                text: '#100Days'
+                },
+            {
+                id: 5,
                 path: '/contact/',
                 text: 'contact'
                 }   

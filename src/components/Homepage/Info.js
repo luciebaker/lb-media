@@ -16,8 +16,7 @@ export default class Info extends Component {
                         
                     </div>
                     <div className="col-md-5 mt-2 info-container-right">
-                        <p>It’s 2020 and you deserve a website built with the best technology available. Whether you are an individual wanting to start a simple blog, a small business seeking to establish a web presence, increase brand awareness, generate leads, sell products, or a combination of several of these, you deserve the best.</p>
-                        
+                        <p> It’s 2020 and you deserve the best technology available; technology that will adapt to your needs as your web presence grows. Choosing the technology that will power your website or web application is an important decision. There are several options available but few, if any, will compare to the power of Gatsby.</p>
                     </div>
                 </div>
                 <div className="text-center mt-3">

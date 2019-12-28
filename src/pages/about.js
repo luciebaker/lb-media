@@ -2,6 +2,7 @@ import React from "react"
 import Hero from "../components/utilities/Hero"
 import Header from "../components/utilities/Header"
 import Layout from "../components/layout"
+import ContactCTA from "../components/utilities/ContactCTA"
 import SEO from "../components/seo"
 import { graphql } from 'gatsby'
 
@@ -12,7 +13,8 @@ export default ({data}) => (
     <Header title="About LB Media" subtitle="Leveraging the power of the latest web technologies to give you the edge." />
     </Hero>
     
-    <h3 className="temp-text text-center mb-5">Nothing here yet... but we're working on it!</h3>
+    <h3 className="temp-text text-center mb-5">Nothing here yet... but I'm working on it!</h3>
+    <ContactCTA />
   </Layout>
 )
 

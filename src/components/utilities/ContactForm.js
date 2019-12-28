@@ -4,7 +4,7 @@ import FeaturedText from '../utilities/featuredText'
 const ContactForm = () => {
     return (
         <div className="container">
-        <FeaturedText text="Get in touch" />
+        <FeaturedText text="Let's talk about your next website or web application" />
         <form action="https://formspree.io/mqkarvoj" method="POST">
         <div className="form-row mt-4">
         <div className="form-group col-md-6">
@@ -24,7 +24,7 @@ const ContactForm = () => {
         <label htmlFor="message" className="contact-text">Your Message</label>
         <textarea className="form-control contact-input" name="message" id="message" rows="6"></textarea>
         </div>
-        <input type="submit" value="submit your message" className="btn btn-bordered-teal submit-btn-text mb-5">
+        <input type="submit" value="submit your message" className="btn btn-bordered-teal submit-btn-text mt-2 mb-5">
         </input>
         
         </form>

@@ -45,7 +45,7 @@ const FeaturedPortfolio = () => {
         </div>
 
         </section>
-        <div className="text-center">
+        <div className="text-center pt-2">
                 <AniLink fade to='/portfolio'>
                 <h5 className="btn-text pt-3">View Portfolio <FaChevronCircleRight className="link-icon"/></h5>
                 </AniLink>
