@@ -1,6 +1,6 @@
 import React from 'react'
 import FeaturedText from '../utilities/featuredText'
-
+ 
 const ContactForm = () => {
     return (
         <div className="container">

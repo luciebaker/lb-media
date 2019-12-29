@@ -30,8 +30,8 @@ export default class Footer extends Component {
             </div>
 
                 <div className="row copyright-bg copyright-border">
-                <div className="col-10 mx-auto col-md-6 mt-3 copyright-text text-center">
-                <p> &copy; {new Date().getFullYear().toString()} Lucie B | LB Media </p>
+                <div className="col-10 mx-auto col-md-6 mt-3 text-center">
+                <p className="copyright-text"> &copy; {new Date().getFullYear().toString()} Lucie B | LB Media </p>
                 </div>
                 </div>
         </div>

@@ -12,6 +12,13 @@ exports.createPages = async({graphql, actions}) => {
                 }
             }
         }
+        posts: allContentfulLBblog {
+            edges {
+                node {
+                slug
+                }
+            }
+        }
     }
     `)
 
@@ -19,6 +26,16 @@ exports.createPages = async({graphql, actions}) => {
         createPage({
             path:`portfolio/${node.slug}`,
             component:path.resolve("./src/templates/portfolio-template.js"),
+            context: {
+                slug: node.slug,
+            },
+        })
+    })
+
+    data.posts.edges.forEach(({node}) => {
+        createPage({
+            path:`insights/${node.slug}`,
+            component:path.resolve("./src/templates/insight-template.js"),
             context: {
                 slug: node.slug,
             },

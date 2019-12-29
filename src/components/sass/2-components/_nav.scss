@@ -29,3 +29,9 @@
         margin-left: .9rem;
     }
 }
+
+@media (max-width: 579px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
+}
