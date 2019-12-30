@@ -7,6 +7,9 @@ module.exports = {
     title: `LB Media`,
     description: `Modern Web Design & Development.`,
     author: `Lucie B`,
+    twitterUsername: "@LBMedia7",
+    image: '/LBMediaImg.png',
+    siteUrl: 'https://lbmedia.netlify.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
