@@ -5,13 +5,14 @@ import InsightHeader from "../components/Insights/InsightHeader"
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import { FaChevronCircleRight } from 'react-icons/fa'
+import SEO from "../components/seo"
 
 const Insight = ({data}) => {
-const {title, subtitle, published, text:{json}} = data.post
+const {title, subtitle, published, excerpt:{excerpt}, text:{json}} = data.post
 
     return (
         <Layout>
-
+            <SEO title={title} description={excerpt} />
             <div className="container-fluid container-insight-hero">
             <InsightHeader title={title} subtitle={subtitle} date={published} />
             </div>
@@ -35,6 +36,9 @@ query getPost($slug:String!){
     title
     subtitle
     published(formatString:"MMMM D, YYYY")
+    excerpt {
+      excerpt
+    }
     text {
       json
     }

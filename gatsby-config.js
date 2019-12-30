@@ -4,11 +4,12 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `LB Media`,
-    description: `Modern Web Design & Development.`,
-    author: `Lucie B`,
+    title: "LB Media",
+    titleTemplate: "%s | LB Media",
+    description: "Modern Web Design & Development ",
+    author: "Lucie B",
     twitterUsername: "@LBMedia7",
-    image: '/LBMediaImg.png',
+    image: '/LBMedia.png',
     siteUrl: 'https://lbmedia.netlify.com',
   },
   plugins: [

@@ -9,7 +9,7 @@ import { graphql } from 'gatsby'
 
 export default ({data}) => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Contact" description="Let's build something great together! Get in touch."/>
     <Hero img={data.defaultBG.childImageSharp.fluid}>
     <Header title="Contact LB Media" subtitle="Let's talk about your next website." />
     </Hero>

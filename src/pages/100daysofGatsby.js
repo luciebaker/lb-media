@@ -10,7 +10,7 @@ import { graphql } from 'gatsby'
 
 export default ({data}) => (
   <Layout>
-    <SEO title="100 Days of Gatsby" />
+    <SEO title="100 Days of Gatsby" description="From January 1, 2020, I am taking part in the #100DaysofGatsby Challenge. Here, I will share with you the journey, the highlights & lowlights of each day and simply share my experience." />
     <Hero img={data.defaultBG.childImageSharp.fluid}>
     <DaysHeader title="#100 Days of Gatsby" subtitle="Taking on the Challenge!" />
     </Hero>

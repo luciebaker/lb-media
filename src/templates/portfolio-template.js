@@ -4,13 +4,15 @@ import Layout from '../components/layout'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { FaChevronCircleRight } from 'react-icons/fa'
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 
 const PfTemplate = ({data}) => {
-const {name, tech, externalUrl, githubLink, overview:{overview}, result:{result}, media} = data.pfitem
+const {name, tech, externalUrl, githubLink, description:{description}, overview:{overview}, result:{result}, media} = data.pfitem
 const [mainImage] = media
 
 return (
         <Layout>
+        <SEO title={name} description={description}/>
         <div className="container-fluid container-pf-hero">
         <div className="container justify-content-center pf-main-image-div">
             <Img fluid={mainImage.fluid} alt="portfolio"/>
