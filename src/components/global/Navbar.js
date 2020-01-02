@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                 },
             {
                 id: 4,
-                path: '/100daysofGatsby/',
+                path: 'https://lbmedia-100daysofgatsby.netlify.com/',
                 text: '#100Days'
                 },
             {
@@ -68,9 +68,8 @@ export default class Navbar extends Component {
             {this.state.links.map(link => {
                 return (
                     <li key={link.id} className="nav-item">
-                    <AniLink to={link.path} className="nav-link text-uppercase">
-                    {link.text}
-                    </AniLink>
+                    <a href={link.path} key={link.id} rel="noopener noreferrer" className="nav-link text-uppercase">
+                    {link.text}</a>
                     </li>
                 )     
             })}
