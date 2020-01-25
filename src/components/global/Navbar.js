@@ -26,7 +26,7 @@ export default class Navbar extends Component {
                 },
             {
                 id: 4,
-                path: 'https://lbmedia-100daysofgatsby.netlify.com/',
+                path: 'https://lb-100daysofgatsby.netlify.com/',
                 text: '#100Days'
                 },
             {
